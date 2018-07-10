@@ -1,0 +1,51 @@
+1、Projectls.test projectcreditAssignlist(暂不准备)
+剩余期限为1个月的债转标的，利率为7.5%
+剩余期限为2个月的债转标的，利率为9.5%
+剩余期限为5个月的债转标的，利率为11%
+剩余期限为11个月的债转标的,利率为11.5%,距离下次还款日为20天,projectname = '信用债转标的测试01'
+剩余期限为11个月的债转标的，利率为11.5%，距离下次还款日为10天,projectname = '列表查询标的测试02'
+剩余期限为23个月的债转标的,利率为12.5%(含1%加息)
+
+2、用户个人资料与我的账户页面数据
+只注册未开户-出借人（15458524698 15458524698）
+INSERT INTO `apd_biz_sina`.`user` (`UserID`, `UserName`, `NickName`, `UserType`, `Mobile`, `MobileIsVerified`, `MobileVerifyAt`, `DeviceId`, `Gender`, `Age`, `Location`, `Email`, `EmailStatus`, `EmailVerifyAt`, `IdCard`, `RealName`, `IdCardIsVerified`, `IdCardIsReVerified`, `IsOpenPayUser`, `OpenPayUserAt`, `IsOpenSinaPay`, `OpenSinaPayAt`, `BorrowPermission`, `IdCardVerifyAt`, `EncryptedMobile`, `EncryptedIdCard`, `RegisterAt`, `LastLoginAt`, `LoginTimes`, `Remark`, `IsValid`, `OldUserId`, `openSinaStatus`, `OpenAutoBid`, `IsFreezenWithdraw`, `IsFrozenInvest`, `IsFrozenRecharge`, `IsOpenSumaPay`, `OpenSumaPayAt`, `SumaPayAccountID`, `IsPayPassword`, `AutoBidSignSeriNo`, `IsCashLoan`, `AutoCreditAssign`) VALUES ('132295', 'p1142983', NULL, 'Customer', '154****4698', b'1', '2018-01-17 14:50:21', NULL, '女', '0', NULL, NULL, 'NoBind', NULL, NULL, NULL, b'0', b'0', b'0', NULL, b'0', NULL, '0', NULL, '9BnOxbITYX1DO+X/UNXzbA1G8VKL4qSXmIVAMY0yOcNhqDUgDZK7g3e4M9Cvg5SM', NULL, '2018-01-17 14:50:21', '2018-07-07 15:11:12', '7', NULL, '1', NULL, NULL, 'CLOSED', b'0', b'0', b'0', b'0', NULL, NULL, b'0', NULL, b'0', 'CLOSED');
+开户成功并设置了交易密码-出借人(15558524696 15558524696)
+开户成功但未设置交易密码-出借人（13658524691 密码:15811507614）
+INSERT INTO `apd_biz_sina`.`user` (`UserID`, `UserName`, `NickName`, `UserType`, `Mobile`, `MobileIsVerified`, `MobileVerifyAt`, `DeviceId`, `Gender`, `Age`, `Location`, `Email`, `EmailStatus`, `EmailVerifyAt`, `IdCard`, `RealName`, `IdCardIsVerified`, `IdCardIsReVerified`, `IsOpenPayUser`, `OpenPayUserAt`, `IsOpenSinaPay`, `OpenSinaPayAt`, `BorrowPermission`, `IdCardVerifyAt`, `EncryptedMobile`, `EncryptedIdCard`, `RegisterAt`, `LastLoginAt`, `LoginTimes`, `Remark`, `IsValid`, `OldUserId`, `openSinaStatus`, `OpenAutoBid`, `IsFreezenWithdraw`, `IsFrozenInvest`, `IsFrozenRecharge`, `IsOpenSumaPay`, `OpenSumaPayAt`, `SumaPayAccountID`, `IsPayPassword`, `AutoBidSignSeriNo`, `IsCashLoan`, `AutoCreditAssign`) VALUES ('132796', 'u6017871', NULL, 'Customer', '136****4691', b'1', '2018-03-26 10:51:56', NULL, '女', '98', '贵州', NULL, 'NoBind', NULL, '650***19200508**23', '跟手缝', b'1', b'1', b'1', NULL, b'0', NULL, '0', '2018-03-26 10:45:57', '1n57iZrBHnptCnZX4JTB+oh7pGeUq0t3k/GrEZMk4V4oJMPDs8f+7DWYoB0H0URT', '4jzgubykj8TwB6LGXdyt+WeO7shAqmHQLlyy/6Ll4HOB7PgMDOq0OEzyNJxBjdSf', '2018-03-26 10:45:06', '2018-07-07 15:14:09', '5', NULL, '1', NULL, NULL, 'CLOSED', b'0', b'0', b'0', b'1', '2018-03-26 10:45:57', '9930040050130161454', b'0', NULL, b'0', 'CLOSED');
+开户成功并设置交易密码-借款人（14458526670 14458526670）
+INSERT INTO `apd_biz_sina`.`user` (`UserID`, `UserName`, `NickName`, `UserType`, `Mobile`, `MobileIsVerified`, `MobileVerifyAt`, `DeviceId`, `Gender`, `Age`, `Location`, `Email`, `EmailStatus`, `EmailVerifyAt`, `IdCard`, `RealName`, `IdCardIsVerified`, `IdCardIsReVerified`, `IsOpenPayUser`, `OpenPayUserAt`, `IsOpenSinaPay`, `OpenSinaPayAt`, `BorrowPermission`, `IdCardVerifyAt`, `EncryptedMobile`, `EncryptedIdCard`, `RegisterAt`, `LastLoginAt`, `LoginTimes`, `Remark`, `IsValid`, `OldUserId`, `openSinaStatus`, `OpenAutoBid`, `IsFreezenWithdraw`, `IsFrozenInvest`, `IsFrozenRecharge`, `IsOpenSumaPay`, `OpenSumaPayAt`, `SumaPayAccountID`, `IsPayPassword`, `AutoBidSignSeriNo`, `IsCashLoan`, `AutoCreditAssign`) VALUES ('131990', 'd3562507', NULL, 'Customer', '144****6670', b'1', '2018-01-12 10:57:15', NULL, '男', '35', NULL, '', 'Verified', '2018-02-26 15:25:50', '232***19830429**38', '味射', b'1', b'1', b'1', NULL, b'0', NULL, '1', '2018-01-12 10:58:18', 'Yq9c7h8QBTnMFiNNTulPBOPshzLkmni+1UvNQrzbOCWsuGXKGQFYXIQsc866ZMx7', 'f7KQtJTMoT0MY65bswJwFx8UuHnVqSOFBj55MectcvlTLe5OoWHhaheiyTpqD6uJ', '2018-01-12 10:57:15', '2018-03-27 10:45:08', '16', NULL, '1', NULL, NULL, 'CLOSED', b'0', b'1', b'0', b'1', '2018-01-12 10:58:18', '9930040050130101385', b'1', NULL, b'0', 'CLOSED');
+
+3、修改登录密码账号：15558524696 15558524696
+INSERT INTO `apd_biz_sina`.`user` (`UserID`, `UserName`, `NickName`, `UserType`, `Mobile`, `MobileIsVerified`, `MobileVerifyAt`, `DeviceId`, `Gender`, `Age`, `Location`, `Email`, `EmailStatus`, `EmailVerifyAt`, `IdCard`, `RealName`, `IdCardIsVerified`, `IdCardIsReVerified`, `IsOpenPayUser`, `OpenPayUserAt`, `IsOpenSinaPay`, `OpenSinaPayAt`, `BorrowPermission`, `IdCardVerifyAt`, `EncryptedMobile`, `EncryptedIdCard`, `RegisterAt`, `LastLoginAt`, `LoginTimes`, `Remark`, `IsValid`, `OldUserId`, `openSinaStatus`, `OpenAutoBid`, `IsFreezenWithdraw`, `IsFrozenInvest`, `IsFrozenRecharge`, `IsOpenSumaPay`, `OpenSumaPayAt`, `SumaPayAccountID`, `IsPayPassword`, `AutoBidSignSeriNo`, `IsCashLoan`, `AutoCreditAssign`) VALUES ('131455', 'm4927646', NULL, 'Customer', '155****4696', b'1', '2017-12-18 14:11:01', '353490066868908', '男', '73', '浙江', NULL, 'NoBind', NULL, '630***19440708**13', '辕考腑', b'1', b'1', b'1', NULL, b'0', NULL, '0', '2017-12-18 14:12:47', 'Rtyd99IQfP2eKs/0dmTki0RG5V3g1Xx3QMr8h66Ej5b9JhnllYTrQy8sNZZUbkxm', 'F4CpJtQeD95VJg1MKpaANgJ/54+18bumT4/IZ39o2CCRgj6sY58mV0vcWbf53M/0', '2017-12-18 14:11:01', '2018-07-05 14:47:18', '73', NULL, '1', NULL, NULL, 'OPEN', b'0', b'0', b'0', b'1', '2017-12-18 14:12:47', '9930040050130141373', b'1', '17122011400150265604', b'0', 'OPEN');
+
+
+
+3、消息中心，用户（15558524695 密码123456）
+INSERT INTO `apd_interfaceauto_test`.`user` (`UserID`, `UserName`, `NickName`, `UserType`, `Mobile`, `MobileIsVerified`, `MobileVerifyAt`, `DeviceId`, `Gender`, `Age`, `Location`, `Email`, `EmailStatus`, `EmailVerifyAt`, `IdCard`, `RealName`, `IdCardIsVerified`, `IdCardIsReVerified`, `IsOpenPayUser`, `OpenPayUserAt`, `IsOpenSinaPay`, `OpenSinaPayAt`, `BorrowPermission`, `IdCardVerifyAt`, `EncryptedMobile`, `EncryptedIdCard`, `RegisterAt`, `LastLoginAt`, `LoginTimes`, `Remark`, `IsValid`, `OldUserId`, `openSinaStatus`, `OpenAutoBid`, `IsFreezenWithdraw`, `IsFrozenInvest`, `IsFrozenRecharge`, `IsOpenSumaPay`, `OpenSumaPayAt`, `SumaPayAccountID`, `IsPayPassword`, `AutoBidSignSeriNo`, `IsCashLoan`, `AutoCreditAssign`) VALUES ('130711', 'c5222885', NULL, 'Customer', '155****4695', b'1', '2017-11-20 14:15:17', '222', '男', '20', '浙江', NULL, 'NoBind', NULL, '342***19970211**75', '茨汐哼', b'1', b'1', b'1', NULL, b'0', NULL, '0', '2017-11-20 14:16:25', 'Ygk7zlKepIF/cM7aigTmlmGMjU6TMSFP9Y3xE0toH+0z53zuk9Pnh3fNqnyHPAk6', 'nFefWIQa4i95rdY+1LLqQt8l4/EM9AklqvMdOO4gyYOfg/f9kxncb99rV69UK01q', '2017-11-20 14:15:17', '2018-07-03 03:36:14', '177', NULL, '1', NULL, NULL, 'OPEN', b'0', b'0', b'0', b'1', '2017-11-20 14:16:25', '9930040050130011378', b'1', '17121814591526154137', b'0', 'OPEN');
+INSERT INTO `apd_interfaceauto_test`.`message` (`MsgID`, `MsgType`, `UserID`, `MsgContent`, `IsRead`, `CreateAt`, `UpdateAt`, `DelFlag`) VALUES ('25295', 'RechargeSuccess', '132095', '您已于2018-01-26 10:51:57向您的阿朋贷账户成功充值人民币￥1,000元。', '0', '2018-01-26 10:53:11', '2018-07-03 15:32:10', '0');
+
+4、消息中心-标记已读
+标记已读后需要把已读变成未读:
+UPDATE `apd_interfaceauto_test`.`message` SET `IsRead`='0' WHERE (`MsgID`='25295');
+
+5、消息中心-删除消息之后再恢复
+UPDATE `apd_interfaceauto_test`.`message` SET `DelFlag`='0' WHERE (`MsgID`='25295');
+
+6、cashcoupon兑现券兑换
+用户15458524695 密码15458524695（依赖于王奇所造投资人兑现券 15458524695）
+UPDATE `apd_interfaceauto_test`.`activity_cashcoupon` SET `id`='6593', `userId`='132095', `couponCode`='2i80yo4x1v42u7h3', `status`='0', `amount`='2.00', `name`='标的收尾兑现券', `type`='2', `source`='57', `usedFor`='1', `projectId`=NULL, `expire`='2018-07-08 10:16:52', `note`='标的收尾兑现券。', `couponid`=NULL, `sourceName`='标的收尾活动', `investmentId`='0', `investmentUserId`='0', `investmentAmount`=NULL, `strfrom`='Web', `CreateAt`='2015-11-10 10:16:52', `UpdateAt`='2018-06-29 13:56:19' WHERE (`id`='6593');
+UPDATE `apd_interfaceauto_test`.`activity_cashcoupon` SET `status`='0' WHERE (`id`='6593');
+
+7、首页
+后台-台平台公告公告管理-媒体公告(前台新闻资讯)-文章标题为"新闻大事件暴走大事件"
+INSERT INTO `apd_interfaceauto_test`.`notice` (`CmsID`, `CmsTitle`, `Summary`, `CmsContent`, `CreateAt`, `UpdateAt`, `CmsType`, `Source`, `CmsState`, `MediaIcon`, `IsPublish`, `keyword`) VALUES ('3971', '新闻大事件暴走大事件', '111', '', '2018-07-04 16:24:23', '2018-07-04 16:24:37', '1', '1111', '0', NULL, '1', NULL);
+
+后台-公告管理-阿朋动态(前台公司动态)-文章标题为"上半年业绩重大突破"
+INSERT INTO `apd_interfaceauto_test`.`notice` (`CmsID`, `CmsTitle`, `Summary`, `CmsContent`, `CreateAt`, `UpdateAt`, `CmsType`, `Source`, `CmsState`, `MediaIcon`, `IsPublish`, `keyword`) VALUES ('3972', '上半年业绩重大突破', '业绩非常良好', '<p>反反复复</p>', '2018-07-04 16:27:12', '2018-07-04 16:28:55', '5', '财经频道', '0', '', '1', NULL);
+
+后台-公告管理-公告列表(前)-文章标题为"小幸运"
+INSERT INTO `apd_interfaceauto_test`.`notice` (`CmsID`, `CmsTitle`, `Summary`, `CmsContent`, `CreateAt`, `UpdateAt`, `CmsType`, `Source`, `CmsState`, `MediaIcon`, `IsPublish`, `keyword`) VALUES ('3973', '小幸运', '我', '<pre id=\"best-content-2261216349\" accuse=\"aContent\" class=\"best-text mb-10\" style=\"margin-top: 10px; margin-bottom: 10px; padding: 0px; font-family: &#39;PingFang SC&#39;, &#39;Lantinghei SC&#39;, &#39;Microsoft YaHei&#39;, arial, 宋体, sans-serif, tahoma; white-space: pre-wrap; word-wrap: break-word; line-height: 29px; color: rgb(51, 51, 51); font-variant-ligatures: normal; orphans: 2; widows: 2; min-height: 55px; background-color: rgb(255, 255, 255);\">我听见雨滴落在青青草地\r\n我听见远方下课钟声响起</pre><p><br/></p>', '2018-06-07 14:56:11', '2018-06-07 14:56:26', '1', 'SHE', '0', NULL, '1', '艹');
+
+8、我的积分(15558524696 15558524696)
+UPDATE `apd_interfaceauto_test`.`user_points` SET `CurrentPoints`='10400' WHERE (`UserID`='131455');
+INSERT INTO `apd_interfaceauto_test`.`user_points_journal` (`UserPointID`, `UserID`, `CreateAt`, `PointType`, `GoodID`, `InPoint`, `OutPoint`, `Balance`, `ExtContent`, `EndAt`, `Caller`) VALUES ('3287', '131455', '2018-06-16 16:09:48', 'TwoZeroOneEightJune', '3', '0', '0', '0', '100元红包', NULL, 'Web');
