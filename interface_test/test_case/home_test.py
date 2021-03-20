@@ -58,13 +58,13 @@ class HomeTest(unittest.TestCase):
         self.assertEqual(result['data']['newNoticeList'][0]['caller'], 'Web')
         self.assertEqual(result['data']['newNoticeList'][0]['cmsTitle'], '小幸运')
 
-    # def test_bannerList(self):
-    #     """首页banner"""
-    #     test_data = {}
-    #     r = requests.request('get', url=self.base_url, params=test_data)
-    #     result = r.json()
-    #     print(result)
-    #     print(result['data']['bannerList'][0]['description'], '感恩信任 亿起出发')
+    def test_bannerList(self):
+        """首页banner"""
+        test_data = {}
+        r = requests.request('get', url=self.base_url, params=test_data)
+        result = r.json()
+        print(result)
+        print(result['data']['bannerList'][0]['description'], '感恩信任 亿起出发')
 
 if __name__ == '__main__':
     unittest.main()

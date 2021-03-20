@@ -49,3 +49,4 @@ INSERT INTO `apd_interfaceauto_test`.`notice` (`CmsID`, `CmsTitle`, `Summary`, `
 8、我的积分(15558524696 15558524696)
 UPDATE `apd_interfaceauto_test`.`user_points` SET `CurrentPoints`='10400' WHERE (`UserID`='131455');
 INSERT INTO `apd_interfaceauto_test`.`user_points_journal` (`UserPointID`, `UserID`, `CreateAt`, `PointType`, `GoodID`, `InPoint`, `OutPoint`, `Balance`, `ExtContent`, `EndAt`, `Caller`) VALUES ('3287', '131455', '2018-06-16 16:09:48', 'TwoZeroOneEightJune', '3', '0', '0', '0', '100元红包', NULL, 'Web');
+

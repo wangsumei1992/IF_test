@@ -14,7 +14,7 @@ class MessageTest(unittest.TestCase):
         self.base_url = url + "/msg/msg"
 
     @parameterized.expand([('test_Appmessage', '15458524695', '15458524695', '', '', 'APP'),
-                          ])
+                           ('test_Appmessage', '14458526692', '14458526692', '', '', '')])
     def test_Appmessage(self, name, username, loginpass, page, isRead, source):
         stampToken = str(get_stampToken())
         authToken = get_auth_token(userName=username, loginPass=loginpass)
@@ -24,7 +24,7 @@ class MessageTest(unittest.TestCase):
                      'isRead': isRead, 'source': source}
         r = requests.request('get', url=self.base_url, params=test_data)
         result = r.json()
-        print(result['data'][0])
+        print(result)
         self.assertEqual(result['code'], 1)
         self.assertEqual(result['msg'], '消息中心数据')
         self.assertIn('您已于', result['data'][0]['msgContent'])
